@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Anggaran Keluarga Mahendra</title>
+<meta name="description" content="HomeLedger: a working household budget for Keluarga Mahendra in Jakarta — income, spending, budgets, savings goals, bills and monthly reports, all in one place.">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/overview" aria-label="HomeLedger home">
+      <span class="brand-mark" aria-hidden="true">H</span>
+      <span class="brand-text">
+        <strong>HomeLedger</strong>
+        <small>Keluarga Mahendra &middot; Jakarta</small>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Main sections">
+      <a href="#/overview" data-route="overview">Overview</a>
+      <a href="#/transactions" data-route="transactions">Transactions</a>
+      <a href="#/budgets" data-route="budgets">Budgets</a>
+      <a href="#/goals" data-route="goals">Goals</a>
+      <a href="#/bills" data-route="bills">Bills</a>
+      <a href="#/reports" data-route="reports">Reports</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="view" class="wrap" aria-live="polite"></main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>HomeLedger</strong> — a demo household budget. Figures describe a fictional
+    family, Keluarga Mahendra (2 adults, 2 children, Jakarta), and are stored only in
+    this browser. Nothing leaves your device.</p>
+    <p class="foot-note">Income Rp&nbsp;12.500.000 / month &middot; Data for Oct–Dec 2026 &middot;
+    Built as a static site, no accounts, no tracking.</p>
+  </div>
+</footer>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>
